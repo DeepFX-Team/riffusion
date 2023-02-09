@@ -38,7 +38,7 @@ SEED_IMAGES_DIR = Path(Path(__file__).resolve().parent.parent, "seed_images")
 
 def run_app(
     *,
-    checkpoint: str = "riffusion/riffusion-model-v1",
+    checkpoint: str = "jha2ee/riffusion-model-db",
     no_traced_unet: bool = False,
     device: str = "cuda",
     host: str = "127.0.0.1",
